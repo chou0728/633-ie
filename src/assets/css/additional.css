@@ -1,0 +1,35 @@
+.dropdown-menu .dropdown-menu-first{
+    z-index: 15; position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px;
+}
+.dropdown-menu .dropdown-menu-second{
+    z-index: 16; position: relative;
+}
+.thirdPartyGameFrame{
+    height: calc(100vh - 90px);
+}
+.game-nav{
+    display: -ms-flexbox;
+}
+.game-hot li{
+    height: auto;
+}
+.game-hot .game-swiper .swiper-pagination{
+    position: relative !important;
+}
+.ad-swiper-container{
+    height: 556px;
+    overflow: hidden;
+}
+.ad-wrap li{
+    margin-bottom: 0px;
+}
+.footer .m-joins .m-swiper .swiper-pagination{
+    bottom: auto;
+    left: auto;
+    width: auto;
+}
+
+.table thead tr th, .table tbody tr td{
+    text-indent: 0px;
+    text-align: center;
+}

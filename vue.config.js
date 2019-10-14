@@ -8,7 +8,7 @@ module.exports = {
         'dom7',
         'ssr-window'
     ],
-    publicPath: process.env.NODE_ENV === 'production' ? '/633-pc/' : '/',
+    publicPath: process.env.NODE_ENV === 'production' ? '/633-ie/' : '/',
     productionSourceMap: false,
     devServer: {
         port: port,

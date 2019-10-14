@@ -1,3 +1,4 @@
+import '@babel/polyfill'
 import Vue from 'vue'
 
 import {
@@ -24,7 +25,6 @@ import '@/icons/components'
 import '@/middleware/permission'
 import '@/utils/error-log' // Error log
 import '@/registerServiceWorker'
-import 'babel-polyfill'
 
 declare global {
     interface Window {
